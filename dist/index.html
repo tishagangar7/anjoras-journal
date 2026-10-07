@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7d1f2d">
+  <meta name="description" content="Anjora's Journal — a birthday scrapbook made from the memories that matter.">
+  <title>Anjora's Journal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <button class="mini-title" data-go="0" aria-label="Return to cover">AJ</button>
+    <div class="progress" aria-label="Scrapbook progress"><span id="progressBar"></span></div>
+    <span id="counter" aria-live="polite">cover</span>
+  </header>
+
+  <main class="book" id="book">
+    <section class="spread cover active" data-title="cover">
+      <div class="cover-canvas">
+        <div class="tape tape-a"></div><div class="tape tape-b"></div>
+        <img class="cover-photo cp1" src="assets/photos/IMG_7446.JPG" alt="Anjora holding flowers">
+        <img class="cover-photo cp2" src="assets/photos/IMG_2090%202.JPG" alt="Friends under string lights">
+        <img class="cover-photo cp3" src="assets/photos/IMG_8623.JPG" alt="Friends at the beach">
+        <img class="cover-photo cp4" src="assets/photos/IMG_8919.JPG" alt="Friends taking a mirror picture">
+        <p class="issue">birthday edition • vol. forever</p>
+        <div class="cover-title" aria-label="Anjora's Journal">
+          <span>ANJORA'S</span>
+          <strong>JOURNAL</strong>
+        </div>
+        <p class="quote-cut q1">hello gorgeousssssss</p>
+        <p class="quote-cut q2">behnchod <small>(with passion)</small></p>
+        <div class="doodle heart">♡</div>
+        <div class="doodle star">✦</div>
+        <button class="open-book" data-next>open the journal <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="spread flower-page" data-title="hello gorgeous">
+      <div class="paper left-page">
+        <p class="chapter">01 • main character energy</p>
+        <h1 class="script-title">hello,<br>gorgeousssssss</h1>
+        <p class="hand-note">Flowers, flash, and the kind of face card that never clocks out.</p>
+        <figure class="polaroid big tilt-left"><img src="assets/photos/IMG_7441.JPG" alt="Holding a bouquet"><figcaption>for the birthday girl ♡</figcaption></figure>
+        <span class="sticker bloom">FULL<br>BLOOM</span>
+        <span class="pressed-flower">❀</span>
+      </div>
+      <div class="paper right-page collage-grid flower-grid">
+        <figure class="snapshot s1"><img src="assets/photos/IMG_7446.JPG" alt="Bouquet portrait"></figure>
+        <figure class="snapshot s2"><img src="assets/photos/IMG_7450.JPG" alt="Bouquet portrait"></figure>
+        <figure class="snapshot s3"><img src="assets/photos/IMG_7467.JPG" alt="Mirror selfie with flowers"></figure>
+        <figure class="snapshot s4"><img src="assets/photos/IMG_6223.JPG" alt="Night-out portrait"></figure>
+        <figure class="snapshot s5"><img src="assets/photos/IMG_7474.JPG" alt="Candid at home"></figure>
+        <div class="video-card vertical-video v1">
+          <video controls playsinline preload="metadata" poster="assets/posters/extra.jpg"><source src="assets/videos/97F23391-AA5B-414A-BDF8-88F69682AFA0.MP4" type="video/mp4"></video>
+          <span>press play ▷</span>
+        </div>
+        <p class="margin-note">caught being iconic again</p>
+      </div>
+    </section>
+
+    <section class="spread night-garden" data-title="under the lights">
+      <div class="paper full-page deck-paper">
+        <p class="chapter light">02 • one for the books</p>
+        <h1 class="cut-title"><span>UNDER</span> THE STRING LIGHTS</h1>
+        <div class="filmstrip wide">
+          <img src="assets/photos/456AB17E-66B1-41C3-8119-AF6D965A0118IMG_2399.JPG" alt="Friends posing outside">
+          <img src="assets/photos/67D9F7DD-F8CE-446B-A6EA-B7894D043D38IMG_2397.JPG" alt="Friends posing outside">
+          <img src="assets/photos/E41E1C0B-1CFD-426C-8247-D6C1331DDA34IMG_2402.JPG" alt="Friends posing outside">
+        </div>
+        <figure class="polaroid deck-solo tilt-right"><img src="assets/photos/IMG_2090%202.JPG" alt="Two friends under string lights"><figcaption>same night, three hundred photos</figcaption></figure>
+        <p class="scribble">we clean up pretty well ✦</p>
+        <span class="ticket">ADMIT FOUR<br><b>GOOD TIMES</b></span>
+      </div>
+    </section>
+
+    <section class="spread after-dark" data-title="after dark">
+      <div class="paper left-page black-paper">
+        <p class="chapter neon">03 • the night shift</p>
+        <h1 class="club-title">AFTER<br><em>DARK</em></h1>
+        <div class="stacked-photos">
+          <img src="assets/photos/IMG_2373.JPG" alt="Friends posing in a mirror">
+          <img src="assets/photos/IMG_2419.JPG" alt="Friends making faces">
+          <img src="assets/photos/IMG_1376.JPG" alt="Friends hugging on a night out">
+        </div>
+        <p class="lipstick">no context,<br>just vibes</p>
+      </div>
+      <div class="paper right-page red-paper">
+        <div class="video-duo">
+          <div class="video-card"><video controls playsinline preload="metadata" poster="assets/posters/5eed.jpg"><source src="assets/videos/5eed6a3095d84972b25b6c0310a9a0db.MP4" type="video/mp4"></video><span>girls on film</span></div>
+          <div class="video-card"><video controls playsinline preload="metadata" poster="assets/posters/136e.jpg"><source src="assets/videos/136e5961184c4d5d8f25d6724449257b.MP4" type="video/mp4"></video><span>volume up</span></div>
+        </div>
+        <figure class="instant i1"><img src="assets/photos/IMG_2905.JPG" alt="Friends in club lighting"></figure>
+        <figure class="instant i2"><img src="assets/photos/IMG_8105.JPG" alt="Friends at night"></figure>
+        <span class="sticker chaos">CERTIFIED<br>CHAOS</span>
+      </div>
+    </section>
+
+    <section class="spread sunshine" data-title="golden hour">
+      <div class="paper full-page sun-paper">
+        <p class="chapter">04 • sun-soaked</p>
+        <h1 class="sun-title">golden girls</h1>
+        <div class="sun-grid">
+          <figure><img src="assets/photos/DSC01892.JPG" alt="Friends at sunset"><figcaption>golden hour found us</figcaption></figure>
+          <figure><img src="assets/photos/DSC01901.JPG" alt="A large group outdoors"></figure>
+          <figure><img src="assets/photos/IMG_8623.JPG" alt="Two friends at the beach"></figure>
+          <figure><img src="assets/photos/IMG_4136.JPG" alt="Friends in warm sunlight"></figure>
+          <figure><img src="assets/photos/IMG_4140.JPG" alt="Friends in warm sunlight"></figure>
+        </div>
+        <p class="postcard">wish you were here!<br><small>actually, you were ♡</small></p>
+        <span class="sun-doodle">☀</span>
+      </div>
+    </section>
+
+    <section class="spread feb-seven" data-title="a day with the girls">
+      <div class="paper left-page blue-paper">
+        <p class="chapter">05 • a whole day, four frames</p>
+        <h1 class="stamp-title">A DAY WITH<br>THE GIRLS</h1>
+        <figure class="polaroid day-main"><img src="assets/photos/IMG_2631.JPG" alt="Group selfie in sunlight"><figcaption>sun in our eyes, nowhere else to be</figcaption></figure>
+        <figure class="tiny-print"><img src="assets/photos/IMG_2600.JPG" alt="Group picture indoors"></figure>
+      </div>
+      <div class="paper right-page checker-paper">
+        <figure class="mirror-pic"><img src="assets/photos/IMG_6831.JPG" alt="Mirror selfie"></figure>
+        <figure class="selfie-pic"><img src="assets/photos/IMG_6825.JPG" alt="Two friends smiling"></figure>
+        <div class="video-card mini-video"><video controls playsinline preload="metadata" poster="assets/posters/461.jpg"><source src="assets/videos/461CB173-952A-4752-94EF-1409616293BE.MP4" type="video/mp4"></video><span>2.5 seconds of lore</span></div>
+        <p class="hand-note dark">proof that ordinary days become the best pages.</p>
+      </div>
+    </section>
+
+    <section class="spread road-page" data-title="passenger princess">
+      <div class="paper full-page map-paper">
+        <p class="chapter">06 • en route</p>
+        <h1 class="road-title">PASSENGER<br><i>PRINCESS</i></h1>
+        <div class="road-strip">
+          <figure><img src="assets/photos/IMG_4341.JPG" alt="Sleeping in the passenger seat"><figcaption>before</figcaption></figure>
+          <figure><img src="assets/photos/IMG_4342.JPG" alt="Passenger seat candid"><figcaption>during</figcaption></figure>
+          <figure><img src="assets/photos/IMG_4347.JPG" alt="Car selfie"><figcaption>after</figcaption></figure>
+        </div>
+        <div class="video-card parking-video"><video controls playsinline preload="metadata" poster="assets/posters/IMG_2235.jpg"><source src="assets/videos/IMG_2235.MP4" type="video/mp4"></video><span>the getaway</span></div>
+        <span class="route">✦ · · · · · · · · · · ✈</span>
+        <p class="receipt">DESTINATION<br><b>wherever the plot takes us</b><br>fare: one good story</p>
+      </div>
+    </section>
+
+    <section class="spread context-page" data-title="out of context">
+      <div class="paper left-page notebook-paper">
+        <p class="chapter">07 • evidence folder</p>
+        <h1 class="ransom-title">OUT OF<br>CONTEXT</h1>
+        <div class="evidence e1"><img src="assets/photos/IMG_2454.JPG" alt="A screen during a night out"><span>A</span></div>
+        <div class="evidence e2"><img src="assets/photos/IMG_2493.JPG" alt="Candid at an arcade"><span>B</span></div>
+        <div class="evidence e3"><img src="assets/photos/IMG_3802.JPG" alt="Funny group selfie"><span>C</span></div>
+        <p class="marker">we can explain.<br>we will not.</p>
+      </div>
+      <div class="paper right-page messy-paper">
+        <figure class="mask-pic"><img src="assets/photos/IMG_9409.JPG" alt="Face mask candid"></figure>
+        <figure class="lp1"><img src="assets/photos/lp_image.JPG" alt="Funny sunglasses moment"></figure>
+        <figure class="lp2"><img src="assets/photos/lp_image%202.JPG" alt="Funny sunglasses moment"></figure>
+        <div class="video-card table-video"><video controls playsinline preload="metadata" poster="assets/posters/IMG_2347.jpg"><source src="assets/videos/IMG_2347.MP4" type="video/mp4"></video><span>exhibit D — play it</span></div>
+        <span class="quote-burst">BEHNCHOD!<small>(with passion)</small></span>
+      </div>
+    </section>
+
+    <section class="spread soft-page" data-title="soft hours">
+      <div class="paper left-page rose-paper">
+        <p class="chapter">08 • love lives here</p>
+        <h1 class="soft-title">soft<br>hours</h1>
+        <figure class="bouquet-group"><img src="assets/photos/IMG_0037.JPG" alt="Friends holding bouquets"></figure>
+        <figure class="party-group"><img src="assets/photos/IMG_0099.JPG" alt="Friends together after a celebration"></figure>
+        <p class="love-note">The best thing about every photo is who is standing just outside the frame.</p>
+      </div>
+      <div class="paper right-page kraft-paper">
+        <figure class="soft-snap a"><img src="assets/photos/IMG_2956.JPG" alt="Friends at home"></figure>
+        <figure class="soft-snap b"><img src="assets/photos/IMG_4286.JPG" alt="Friends cuddling"></figure>
+        <figure class="soft-snap c"><img src="assets/photos/IMG_8369.JPG" alt="Friends laughing on a couch"></figure>
+        <div class="video-card couch-video"><video controls playsinline preload="metadata" poster="assets/posters/IMG_8786.jpg"><source src="assets/videos/IMG_8786.MP4" type="video/mp4"></video><span>the couch archives</span></div>
+        <div class="video-card laugh-video"><video controls playsinline preload="metadata" poster="assets/posters/IMG_4691.jpg"><source src="assets/videos/IMG_4691.MP4" type="video/mp4"></video><span>sound on ♡</span></div>
+      </div>
+    </section>
+
+    <section class="spread red-room" data-title="the red room">
+      <div class="paper full-page crimson-paper">
+        <p class="chapter light">09 • last call</p>
+        <h1 class="red-title">THE<br>RED<br>ROOM</h1>
+        <figure class="red-still r1"><img src="assets/photos/IMG_4733.JPG" alt="Friends in red party lighting"></figure>
+        <figure class="red-still r2"><img src="assets/photos/IMG_4734.JPG" alt="Friends in red party lighting"></figure>
+        <figure class="red-still r3"><img src="assets/photos/IMG_8919.JPG" alt="Mirror selfie before a night out"></figure>
+        <div class="video-card red-video one"><video controls playsinline preload="metadata" poster="assets/posters/IMG_8913.jpg"><source src="assets/videos/IMG_8913.MP4" type="video/mp4"></video><span>play the memory</span></div>
+        <div class="video-card red-video two"><video controls playsinline preload="metadata" poster="assets/posters/810.jpg"><source src="assets/videos/81051516-CB47-4D0E-A139-DD4183F8974C.MP4" type="video/mp4"></video><span>night vision</span></div>
+        <p class="red-scribble">one more song!</p>
+      </div>
+    </section>
+
+    <section class="spread finale" data-title="to be continued">
+      <div class="paper full-page final-paper">
+        <p class="chapter">10 • and counting</p>
+        <p class="tiny-type">THIS IS NOT THE END</p>
+        <h1>to be<br><em>continued…</em></h1>
+        <div class="final-collage">
+          <img src="assets/photos/IMG_8623.JPG" alt="Friends at the beach">
+          <img src="assets/photos/IMG_4140.JPG" alt="Friends in golden light">
+          <img src="assets/photos/IMG_0037.JPG" alt="Friends with flowers">
+          <img src="assets/photos/IMG_2090%202.JPG" alt="Friends under lights">
+        </div>
+        <p class="birthday-note">Happy birthday, gorgeous.<br><span>The lore continues ♡</span></p>
+        <button class="replay" data-go="0">close the book ↺</button>
+      </div>
+    </section>
+  </main>
+
+  <nav class="page-nav" aria-label="Scrapbook pages">
+    <button id="prevBtn" aria-label="Previous page">← <span>back</span></button>
+    <div id="dots" class="dots"></div>
+    <button id="nextBtn" aria-label="Next page"><span>next</span> →</button>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>
